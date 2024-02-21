@@ -1,0 +1,54 @@
+.nav-link{
+
+   display: none;
+}
+
+.navbar-toggler{
+
+    display: none;
+ }
+
+.navbar-toggler-icon{
+
+    display: none;
+ }
+
+.offcanvas{
+
+    display: none;
+ }
+
+ @media (max-width:767px){
+
+    .nav-link{
+
+        display: block;
+    }
+    .navbar-toggler{
+
+        display: block;
+     }
+    
+    .navbar-toggler-icon{
+    
+        display: block;
+     }
+    
+    .offcanvas{
+    
+        display: block;
+     }
+
+ } 
+
+
+ .cont{
+    margin: 100px auto;
+    width: 70%;
+    
+ }
+ .cont p{
+    
+   padding: 10px;
+   
+}
